@@ -1,5 +1,5 @@
 # GPS Activity Plotter
-Generate heatmaps of your .tcx and .gpx files!
+Generate heat maps of your .tcx and .gpx files!
 
 ## Requirements
 This tool requires `python3` and the following standard packages:

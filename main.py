@@ -160,9 +160,9 @@ def main(args):
     print("Number of points found:", len(xs))
     print("Single image coming up!")
     plt.imshow( grid, origin="lower", cmap="hot", vmin=vmin, vmax=vmax,
-                extent=(min_x, max_x, min_y, max_y), alpha=0.55)
+                extent=(min_x, max_x, min_y, max_y), alpha=0.45)
 
-    plt.savefig("map.png", dpi=600)
+    plt.savefig("map.png", dpi=600, bbox_inches="tight")
 
 
 if __name__ == "__main__":
